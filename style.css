@@ -1,0 +1,60 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas
+{
+    height: 50vh;
+    width: 50%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background: rgb(26, 25, 25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 20px 20px 50px #000;
+}
+
+.canvas .canva
+{
+    height: 40vh;
+    width: 10%;
+    background: blue;
+
+    margin: 4.5%;
+
+    transition: 1s;
+}
+
+.canvas .canva:hover
+{
+    /* box-shadow: 0 0 45px #fff; */
+
+    margin-top: 2%;
+    background: #fff;
+    /* animation: animation 5s infinite; */
+}
+
+/* @keyframes animation
+{
+    0%, 20%, 40%, 60%, 80%
+    {
+        box-shadow: 50px 50px 50px blue;
+    }
+
+    10%, 30%, 50%, 70%
+    {
+        box-shadow: -20px -40px red;
+    }
+
+} */
